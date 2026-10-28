@@ -14,7 +14,7 @@
   --alu:#c9cdd2; --alu-2:#8e949b; --cristal:rgba(214,232,240,.16);
   --ok:#1f7a3a; --no:#a3281c;
   --curva:cubic-bezier(.2,.7,.2,1); --t:.6s;
-  --ancho:1240px; --margen:clamp(16px,3vw,44px);
+  --ancho:1240px; --margen:max(18px,calc(4.6vw + 14px));
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
